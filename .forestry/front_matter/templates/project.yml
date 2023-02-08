@@ -35,6 +35,16 @@ fields:
   config:
     color_format: Hex
   label: Foreground color
+- name: technologies
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Technologies
+  description: Aca van las tecnologias usadas en el proyecto
 pages:
 - projects/3d-graff.md
 - projects/chelsea-landmark.md
